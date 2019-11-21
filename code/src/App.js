@@ -6,15 +6,13 @@ console.log(data)
 
 export const App = () => {
   return (
-    <div>
-    {data.albums.items.map(item => {
-        return (
-          <div>
-            <AlbumCover />
-          </div>
-        )
-    })}
-    </div>
-  )
-
-}
+      <div>
+      {data.albums.items.map((item) => (
+        <AlbumCover 
+        key={item.items.id}
+        title={item.items.name}
+        artists={item.items.artists[0]}/>
+        ))}
+      </div>
+      )
+    }
