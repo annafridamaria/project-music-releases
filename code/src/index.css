@@ -14,11 +14,10 @@ body {
   color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
+h1 {
+  font-size: 18px;
+  margin-left: 45px;
 }
+
+
 

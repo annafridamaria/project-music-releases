@@ -1,9 +1,24 @@
 .Album {
-    width: 22%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
 
+  /* MEDIA QUERIES */
+  @media (min-width: 668px) {
 
-  
+    .Album {
+        width: 45%;
+        margin: 10px;
+    }
+    }
+
+  @media (min-width: 1024px) {
+
+    .Album {
+        width: 22%;
+        margin: 10px;
+    }
+
+    }

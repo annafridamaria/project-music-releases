@@ -1,17 +1,23 @@
 .AlbumInfo {
     display: flex;
     flex-direction: column;
-    overflow: nowrap;
-    
-    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;  
 }
 
 .AlbumInfo a {
-    color: white;
     text-decoration: none;
   }
   
   .AlbumInfo a:hover {
-    color: white;
-    text-decoration: underline;
+        text-decoration: underline;
+  }
+
+  .Artist a {
+    color: #a0a0a0;
+  }
+  .Title a {
+    color: #fff;
+    font-weight: bold;
   }
