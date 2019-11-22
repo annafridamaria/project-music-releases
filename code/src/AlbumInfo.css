@@ -1,0 +1,17 @@
+.AlbumInfo {
+    display: flex;
+    flex-direction: column;
+    overflow: nowrap;
+    
+    
+}
+
+.AlbumInfo a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .AlbumInfo a:hover {
+    color: white;
+    text-decoration: underline;
+  }

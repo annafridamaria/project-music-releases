@@ -1,0 +1,9 @@
+.Album {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+  

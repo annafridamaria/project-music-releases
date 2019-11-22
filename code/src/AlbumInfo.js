@@ -1,18 +1,12 @@
-
 import React from 'react'
-import data from './data.json'
+import 'AlbumInfo.css'
 
-export const AlbumInfo = () => {
-  return (
-    <div>
-    {data.albums.items.map(item => {
-      return <div key={item.id}>
-          {item.name}
-          <br></br>
-          {item.artists[0].name}     
-        </div>;
-    })}
-    </div>
+export const AlbumInfo = (props) => (
+  <div className="AlbumInfo">
+    {/* Album info */}
+    <a href={props.item.external_urls.spotify}>{props.item.name}</a>
+    <a href={props.item.artists[0].external_urls.spotify}>{props.item.artists[0].name}</a>
+  </div>
+)
 
-  )
-}
+

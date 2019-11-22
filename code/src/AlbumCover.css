@@ -1,0 +1,36 @@
+
+.AlbumImage {
+    width: 100%;
+}
+
+.AlbumImage img {
+    /* position: relative; */
+    width: 100%;
+    height: auto;
+  }
+
+  .AlbumImage:hover {
+    opacity: 0.3;
+    position: relative;
+  }
+  
+ .AlbumImage svg {
+     width: 50px;
+  }
+
+  .Icons {
+      display: none;
+      width: 100%;
+      position: absolute;
+      width: 250px;
+      height: 250px;
+  }
+
+  .Icons:hover {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+      position: absolute;
+      z-index: 2;
+  }
+

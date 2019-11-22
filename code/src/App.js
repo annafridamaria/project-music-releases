@@ -1,17 +1,16 @@
 import React from 'react'
 import data from './data.json'
-import { AlbumCover } from 'AlbumCover.js'
+import { Album } from 'Album.js'
+import 'App.css'
 
 console.log(data)
 
 export const App = () => {
   return (
-      <div>
+      <div className="NewReleases">
       {data.albums.items.map((item) => (
-        <AlbumCover 
-        key={item.items.id}
-        title={item.items.name}
-        artists={item.items.artists[0]}/>
+        <Album 
+        key={item.id} item={item}/>
         ))}
       </div>
       )
