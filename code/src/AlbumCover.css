@@ -1,8 +1,6 @@
 
 .AlbumImage {
-    width: 100%;
     position: relative;
-    /* z-index: -1; */
 }
 
 .AlbumImage img {
@@ -13,10 +11,9 @@
   .AlbumImage:hover img {
     opacity: 0.3;
     z-index: -5;
-    /* position: relative; */
   }
   
- .AlbumImage svg {
+ .Icons svg {
      width: 30px;
      fill: white;
   }
@@ -29,10 +26,10 @@
   }
 
   .Icons:hover {
-      opacity: 1;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
+      opacity: 1;
       z-index: 3;
   }
 

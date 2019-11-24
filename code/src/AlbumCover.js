@@ -9,7 +9,7 @@ export const AlbumCover = (props) => (
     <div className="Icons">
       <Heart />
       <div className="Play">
-      <Play />
+        <Play />
       </div>
       <Dots />
     </div>
