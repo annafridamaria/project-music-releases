@@ -18,6 +18,11 @@
      fill: white;
   }
 
+  .Icons a {
+    width: 30px;
+    fill: white;
+ }
+
   .Icons {
       opacity: 0;
       position: absolute;
