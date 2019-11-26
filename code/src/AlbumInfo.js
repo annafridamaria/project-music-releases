@@ -8,7 +8,15 @@ export const AlbumInfo = (props) => (
     <a href={props.item.uri}>{props.item.name}</a>
     </div>
     <div className="Artist">
-    <a href={props.item.artists[0].uri}>{props.item.artists[0].name}</a>
+    {props.item.artists.map((artist) => (
+      <span className="AnArtist">
+      <a key={artist.id}
+      href={artist.uri}>
+        {artist.name}</a>
+        </span>
+
+        ))}
+    
     </div>
     
   </div>

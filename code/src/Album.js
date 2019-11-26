@@ -8,10 +8,10 @@ export const Album = (props) => (
 
     {/* Album cover */}
     <AlbumCover 
-        key={props.item.id + props.item.name} item={props.item}/>
+     item={props.item}/>
 
     {/* Album info */}
     <AlbumInfo 
-        key={props.item.id} item={props.item}/>
+    item={props.item}/>
   </div>
 )
